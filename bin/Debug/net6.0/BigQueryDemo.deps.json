@@ -1,0 +1,207 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BigQueryDemo/1.0.0": {
+        "dependencies": {
+          "Google.Cloud.BigQuery.V2": "3.1.0"
+        },
+        "runtime": {
+          "BigQueryDemo.dll": {}
+        }
+      },
+      "Google.Api.Gax/4.0.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Google.Api.Gax.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Google.Api.Gax.Rest/4.0.0": {
+        "dependencies": {
+          "Google.Api.Gax": "4.0.0",
+          "Google.Apis.Auth": "1.57.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Google.Api.Gax.Rest.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Google.Apis/1.57.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.57.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.57.0.0",
+            "fileVersion": "1.57.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.57.0": {
+        "dependencies": {
+          "Google.Apis": "1.57.0",
+          "Google.Apis.Core": "1.57.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
+            "assemblyVersion": "1.57.0.0",
+            "fileVersion": "1.57.0.0"
+          },
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.57.0.0",
+            "fileVersion": "1.57.0.0"
+          }
+        }
+      },
+      "Google.Apis.Bigquery.v2/1.57.0.2718": {
+        "dependencies": {
+          "Google.Apis": "1.57.0",
+          "Google.Apis.Auth": "1.57.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Bigquery.v2.dll": {
+            "assemblyVersion": "1.57.0.2718",
+            "fileVersion": "1.57.0.2718"
+          }
+        }
+      },
+      "Google.Apis.Core/1.57.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.57.0.0",
+            "fileVersion": "1.57.0.0"
+          }
+        }
+      },
+      "Google.Cloud.BigQuery.V2/3.1.0": {
+        "dependencies": {
+          "Google.Api.Gax.Rest": "4.0.0",
+          "Google.Apis.Bigquery.v2": "1.57.0.2718"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Google.Cloud.BigQuery.V2.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BigQueryDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Api.Gax/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2Q4RruOjUawrtjTazANpp+MNB1M2E8nj2A1kweU1zF0OoNDKUnAIlMbDXs3d+kgcuj/zUVa89/nYot5UZICBWA==",
+      "path": "google.api.gax/4.0.0",
+      "hashPath": "google.api.gax.4.0.0.nupkg.sha512"
+    },
+    "Google.Api.Gax.Rest/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YFoxv4UNP7Hn8Eask0FqwMbCAfBs5hUlzronJgFGVXcStohtKc0Mi+2YqgGN82nynx75jVWEF7siSLBwkmZsHA==",
+      "path": "google.api.gax.rest/4.0.0",
+      "hashPath": "google.api.gax.rest.4.0.0.nupkg.sha512"
+    },
+    "Google.Apis/1.57.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-30V7T2G98HQjfI6y0AzBOXJUu7j7Trl1ZzH0e6DKmUaXNCvdMPwxApjBKESeTOkWjMdFRmkpAGyDEoxim+Xq1A==",
+      "path": "google.apis/1.57.0",
+      "hashPath": "google.apis.1.57.0.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.57.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xNY9rprn3iih1H5dymbxxHeZggn4bMYKtYdwO3Yr+Cj06f6xrxnL0LqEi1bmG46LBY2FlVMy9NKIF99tZ6ZBZg==",
+      "path": "google.apis.auth/1.57.0",
+      "hashPath": "google.apis.auth.1.57.0.nupkg.sha512"
+    },
+    "Google.Apis.Bigquery.v2/1.57.0.2718": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5fWXJNWhDCf6NWsV2x3h6Bh89XsjOmKZx4pBDqhZMYPY2u4gU+fG+71uUyI7ag/2eMgvQlqcGkHieec4U5WAwQ==",
+      "path": "google.apis.bigquery.v2/1.57.0.2718",
+      "hashPath": "google.apis.bigquery.v2.1.57.0.2718.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.57.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5wuY88PewhfaWsk37EEHcwU6CFqxpaWMm20ogWLXmaCw8NbTlV/Lna0gjtr2jpTLgb3mtVa7RC1AG/mgi530SQ==",
+      "path": "google.apis.core/1.57.0",
+      "hashPath": "google.apis.core.1.57.0.nupkg.sha512"
+    },
+    "Google.Cloud.BigQuery.V2/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XHZdNANx9X1BY2T4npE3MPxrzUKl4pu8Wr0Jx7af1AHLCs3on3+TWgals5vC8XndsnAsfE6ErWzA2QHCTm3gXw==",
+      "path": "google.cloud.bigquery.v2/3.1.0",
+      "hashPath": "google.cloud.bigquery.v2.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
+      "path": "microsoft.bcl.asyncinterfaces/6.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    }
+  }
+}
